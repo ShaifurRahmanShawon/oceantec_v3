@@ -52,3 +52,93 @@
   text-decoration: none;
   border: 2px solid #0d0f10;
 }
+
+/* Add this to your existing CSS or create a new CSS file */
+
+.image-container {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Add margin bottom */
+}
+
+.image-container img {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any default image spacing */
+}
+
+.project-details {
+  padding: 20px; /* Add padding to the project details */
+  background-color: #f8f9fa; /* Background color for project details */
+}
+
+.project-details h2 {
+  font-size: 24px; /* Adjust the font size for project title */
+  margin-bottom: 10px; /* Add margin bottom for spacing */
+}
+
+.project-details p {
+  font-size: 16px; /* Adjust the font size for project description */
+  line-height: 1.6; /* Adjust line height for readability */
+}
+
+/* Add this CSS to your existing styles or create a new CSS file */
+
+/* Popup Styles */
+.popup {
+  display: none; /* Hide popup by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 9999; /* Ensure popup is on top */
+  overflow: auto; /* Enable scrolling if content exceeds viewport */
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 20% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Slider Styles */
+.slider {
+  margin-top: 20px;
+}
+
+.slider img {
+  width: 100%;
+  display: none;
+}
+
+/* Button Styles */
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Adjust button styles as needed */
