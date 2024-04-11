@@ -143,3 +143,23 @@
 
 /* Adjust button styles as needed */
 
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.shadow-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .shadow-effect {
+  opacity: 1;
+}
