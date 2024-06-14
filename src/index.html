@@ -52,22 +52,25 @@
   background-color: #fff;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
   z-index: 9999;
+  overflow: hidden; /* Ensure no overflow */
 }
 
 .popup img {
-  width: 100%;
-  height: auto; /* Make the image responsive */
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
   object-fit: cover;
 }
 
 .close-btn {
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 10px; /* Positioned at the top right corner */
   cursor: pointer;
+  background-color: #f0f0f006; /* Light background for visibility */
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
-/* Media Query for smaller devices */
 @media (max-width: 768px) {
   .popup {
     width: 90%; /* Adjust width for smaller devices */
@@ -137,7 +140,7 @@
 
   <div class="popup">
   <span class="close-btn" onclick="closePopup()">Close [X]</span>
-  <img src="assets/img/advertising/eid_2024.jpg" alt="Popup Ad Image">
+  <img src="assets/img/advertising/eid_2024_p2.jpg" alt="Popup Ad Image">
 </div>
 
   <main id="main">
