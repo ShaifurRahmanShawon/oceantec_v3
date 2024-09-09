@@ -135,14 +135,14 @@ button {
   position: relative;
   display: inline-block;
   margin: 10px;
-  padding: 10px 64px;
+  padding: 10px 20px;
   text-align: center;
   font-size: 18px;
+  font-style: italic;
   letter-spacing: 1px;
   text-decoration: none;
   color: #0a4359;
   background: #d01ca514;
-  cursor: pointer;
   transition: ease-out 0.5s;
   border: 2px solid #27b4d8;
   border-radius: 10px;
